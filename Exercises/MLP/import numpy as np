@@ -1,0 +1,7 @@
+import numpy as np
+
+class mlp:
+    def __init__(self, n_inputs, n_outputs, n_hidden):
+        self.beta = 1
+        self.eta = 0.1
+        self.momentum = 0.0
